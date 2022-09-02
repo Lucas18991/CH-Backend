@@ -8,6 +8,8 @@ class Usuario {
 
   getFullName() {
     FullName = Usuario.nombre + " " + Usuario.apellido;
+
+    console.log(FullName);
   }
 
   addMascota(...args) {
