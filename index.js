@@ -2,36 +2,41 @@ class Usuario {
   constructor(nombre, apellido, libro, mascotas) {
     this.nombre = nombre;
     this.apellido = apellido;
-    this.libro = { libro };
-    this.mascotas = [mascotas];
+    this.libro = [];
+    this.mascotas = [];
   }
 
   getFullName() {
-    FullName = Usuario.nombre + " " + Usuario.apellido;
+    const FullName = `El nombre es ${this.nombre} y su apelldo es ${this.apellido}`;
 
     console.log(FullName);
   }
 
-  addMascota(...args) {
-    let sum = 0;
-    for (let i = 0; i < args.length; i++) {
-      sum += args[i];
-
-      Usuario.mascotas = [args];
-    }
+  addMascota(NombreMascotas) {
+    this.mascotas.push(NombreMascotas);
   }
 
   CountMascotas() {
-    console.log(Usuario.mascotas.length);
+    console.log(this.mascotas.length);
   }
 
   addBook(nombre, autor) {
-    Usuario.libro = { nombre: nombre, autor: autor };
+    this.libro.push({ nombre: nombre, autor: autor });
   }
 
   getBookNames() {
-    console.log(libro.nombre);
+    let NombreLibros = this.libro.map(({ nombre }) => {
+      return nombre;
+    });
+    console.log(NombreLibros);
   }
 }
 
-Lucas = new Usuario(Lucas, Lopez, Libro, Perro);
+const Lucas = new Usuario("Lucas", "Lopez", [], []);
+Lucas.addBook("La Historia Interminable", "Michael Ende");
+Lucas.getBookNames();
+Lucas.addMascota("perro");
+Lucas.addMascota("Gato");
+Lucas.getFullName();
+Lucas.CountMascotas();
+console.log(Lucas);
