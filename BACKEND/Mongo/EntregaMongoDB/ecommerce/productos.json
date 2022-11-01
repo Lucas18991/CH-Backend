@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d49"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Iphone 10",
+  "precio": 1000,
+  "url": "url1.com",
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d4a"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Iphone 11",
+  "precio": 2000,
+  "url": "url2.com",
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d4b"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Samsung Galaxy",
+  "precio": 3000,
+  "url": "url3.com",
+  "stock": 15
+},{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d4c"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Joystick",
+  "precio": 101,
+  "url": "url4.com",
+  "stock": 20
+},{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d4d"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Auriculares",
+  "precio": 200,
+  "url": "url5.com",
+  "stock": 25
+},{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d4e"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Monitor",
+  "precio": 2360,
+  "url": "url6.com",
+  "stock": 30
+},{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d4f"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Cafetera",
+  "precio": 570,
+  "url": "url7.com",
+  "stock": 35
+},{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d50"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Lavarropas",
+  "precio": 3000,
+  "url": "url8.com",
+  "stock": 40
+},{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d51"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Heladera",
+  "precio": 3450,
+  "url": "url9.com",
+  "stock": 45
+},{
+  "_id": {
+    "$oid": "63544dafcda48b69b34d3d52"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469295910"
+    }
+  },
+  "nombre": "Notebook Gamer",
+  "precio": 4999,
+  "url": "url10.com",
+  "stock": 50
+}]

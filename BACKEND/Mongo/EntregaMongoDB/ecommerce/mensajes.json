@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "63545040d060e3374266195f"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1666469952407"
+    }
+  },
+  "usuario": "Gonzalo Lopez",
+  "mensaje": "Hola mundo"
+}]
